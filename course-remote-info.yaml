@@ -1,21 +1,19 @@
 hyperskill_project:
-  id: 68
-  ide_files: https://stepik.org/media/attachments/lesson/219111/additional_files.json
+  id: 73
+  ide_files: https://stepik.org/media/attachments/lesson/239550/additional_files.json
   is_template_based: false
   use_ide: true
 stages:
-- id: 366
-  step: 5790
-- id: 367
-  step: 5791
-- id: 368
-  step: 5792
-- id: 369
-  step: 5793
-- id: 370
-  step: 5794
-- id: 371
-  step: 5795
+- id: 399
+  step: 6503
+- id: 400
+  step: 6504
+- id: 401
+  step: 6505
+- id: 402
+  step: 6506
+- id: 403
+  step: 6507
 topics:
   0:
   - title: Introduction to Python
@@ -33,23 +31,25 @@ topics:
     theory_id: 5852
   - title: Variables
     theory_id: 5859
-  - title: Integer arithmetic
-    theory_id: 5865
-  - title: Type casting
-    theory_id: 6224
-  - title: Naming variables
-    theory_id: 5885
-  - title: Invoking a function
-    theory_id: 5891
+  - title: List
+    theory_id: 5979
   - title: Taking input
     theory_id: 5913
-  - title: Program with numbers
-    theory_id: 5872
-  - title: Basic string methods
-    theory_id: 6842
   2:
+  - title: IDE
+    theory_id: 3805
+  - title: Avoiding bad comments
+    theory_id: 6440
+  - title: Integer arithmetic
+    theory_id: 5865
   - title: Boolean logic
     theory_id: 6025
+  - title: Naming variables
+    theory_id: 5885
+  - title: Indexes
+    theory_id: 6189
+  - title: Program with numbers
+    theory_id: 5872
   - title: Comparisons
     theory_id: 5920
   - title: If statement
@@ -58,40 +58,39 @@ topics:
     theory_id: 5932
   - title: Elif statement
     theory_id: 5926
+  - title: For loop
+    theory_id: 6065
+  - title: List comprehension
+    theory_id: 6315
+  - title: Nested lists
+    theory_id: 6938
+  - title: PyCharm basics
+    theory_id: 6193
   3:
-  - title: IDE
-    theory_id: 3805
+  - title: Quotes and multi-line strings
+    theory_id: 5814
+  - title: Type casting
+    theory_id: 6224
+  - title: Escape sequences
+    theory_id: 7130
+  - title: Invoking a function
+    theory_id: 5891
   - title: Declaring a function
     theory_id: 5900
   - title: Scopes
     theory_id: 6322
-  - title: PyCharm basics
-    theory_id: 6193
+  - title: Basic string methods
+    theory_id: 6842
+  - title: Split and join
+    theory_id: 6972
   4:
-  - title: List
-    theory_id: 5979
+  - title: Program execution
+    theory_id: 6047
+  - title: Errors
+    theory_id: 6052
   - title: While loop
     theory_id: 5940
-  - title: For loop
-    theory_id: 6065
   - title: Loop control statements
     theory_id: 6302
-  5:
-  - title: Introduction to OOP
-    theory_id: 3614
-  - title: Quotes and multi-line strings
-    theory_id: 5814
-  - title: String formatting
-    theory_id: 6037
-  - title: Class
-    theory_id: 6661
-  - title: Class instances
-    theory_id: 6669
-  - title: Class vs instance
-    theory_id: 6677
-  - title: Methods
-    theory_id: 6931
-  - title: Methods and attributes
-    theory_id: 6981
-  - title: Magic methods
-    theory_id: 7139
+  - title: Any and all
+    theory_id: 7800
