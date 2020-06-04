@@ -1,0 +1,61 @@
+type: edu
+custom_name: stage2
+files:
+- name: tests.py
+  visible: false
+  text: |
+    from hstest.stage_test import *
+    from hstest.test_case import TestCase
+
+    CheckResult.correct = lambda: CheckResult(True, '')
+    CheckResult.wrong = lambda feedback: CheckResult(False, feedback)
+
+
+    class ChattyBotTest(StageTest):
+        def generate(self) -> List[TestCase]:
+            return [
+                TestCase(stdin="John", attach="John"),
+                TestCase(stdin="Nick", attach="Nick")
+            ]
+
+        def check(self, reply: str, clue: Any) -> CheckResult:
+            lines = reply.strip().splitlines()
+            if len(lines) != 4:
+                return CheckResult.wrong(
+                    "You should output 4 lines!\n" +
+                    f"Lines found: {len(lines)}"
+                    f"Your output:\n"
+                    f"{reply.strip()}"
+                )
+
+            line_with_name = lines[3].lower()
+            name = clue.lower()
+
+            if name not in line_with_name:
+                return CheckResult.wrong(
+                    "The name was " + clue + "\n" +
+                    "But the 4-th line was:\n" +
+                    "\"" + lines[3] + "\"\n\n" +
+                    "4-th line should contain a name of the user"
+                )
+
+            return CheckResult.correct()
+
+
+    if __name__ == '__main__':
+        ChattyBotTest('bot.bot').run_tests()
+  learner_created: false
+- name: bot/bot.py
+  visible: true
+  text: |
+    print('Hello! My name is Aid.')
+    print('I was created in 2020.')
+    print('Please, remind me your name.')
+
+    # reading a name
+
+    print('What a great name you have, {your_name}!')
+  learner_created: false
+feedback_link: https://hyperskill.org/projects/97/stages/535/implement
+status: Solved
+record: 2

@@ -1,0 +1,48 @@
+type: edu
+custom_name: stage1
+files:
+- name: tests.py
+  visible: false
+  text: |
+    import re
+    from hstest.stage_test import *
+    from hstest.test_case import TestCase
+
+    CheckResult.correct = lambda: CheckResult(True, '')
+    CheckResult.wrong = lambda feedback: CheckResult(False, feedback)
+
+
+    class ChattyBotTest(StageTest):
+        def generate(self) -> List[TestCase]:
+            return [TestCase()]
+
+        def check(self, reply: str, clue: Any) -> CheckResult:
+            lines = reply.strip().splitlines()
+            if len(lines) != 2:
+                return CheckResult.wrong(
+                    "You should output exactly 2 lines!\n" +
+                    f"Lines found: {len(lines)}"
+                    f"Your output:\n"
+                    f"{reply.strip()}"
+                )
+
+            if not re.match(".*\\d.*", lines[1]):
+                return CheckResult.wrong(
+                    "The second line should contain a year!\n" +
+                    "Your second line: \"" + lines[1] + "\""
+                )
+
+            return CheckResult.correct()
+
+
+    if __name__ == '__main__':
+        ChattyBotTest('bot.bot').run_tests()
+  learner_created: false
+- name: bot/bot.py
+  visible: true
+  text: |
+    # write your code here
+  learner_created: false
+feedback_link: https://hyperskill.org/projects/97/stages/534/implement
+status: Solved
+record: 1
