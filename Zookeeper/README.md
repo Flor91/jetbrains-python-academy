@@ -1,6 +1,6 @@
 # Zookeeper
 
-![Zoo](https://media.giphy.com/media/1gOadI4RGkrFpbMF7r/giphy.gif)
+![Zoo](https://media.giphy.com/media/mQtJ71Rn26YpO/giphy.gif)
 
 ### About this project
 Help the local zoo look after its denizens. You will create a tool for monitoring animals and their status.
