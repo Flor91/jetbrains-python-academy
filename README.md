@@ -29,13 +29,17 @@ This repo is WIP, I will continue to update it weekly with new challenges progre
 ![Python projects](https://media.giphy.com/media/LMia8kOesIyAnS7lvP/giphy.gif)
 
 - [☕ Coffee Machine](Coffee%20Machine/README.md)
-- [Hangman](Hangman/README.md)
-- [Tic-Tac-Toe](Tic-Tac-Toe/README.md)
-- [Simple Chatty Bot](Simple%20Chatty%20Bot/README.md)
+- [🤖 Simple Chatty Bot](Simple%20Chatty%20Bot/README.md)
+- [🐘 Zookeeper](Zookeeper/README.md)
 
 ![Python projects](https://media.giphy.com/media/QVUgiVilwyQncFCGI1/giphy.gif)
 
+- [🔡 Hangman](Hangman/README.md)
+- [❌⭕ Tic-Tac-Toe](Tic-Tac-Toe/README.md)
+
 ![Python projects](https://media.giphy.com/media/KDD2ogvPOGzuh1w2Hs/giphy.gif)
+
+- [💳 Credit Calculator](Credit%20Calculator/README.md)
 
 ![Python projects](https://media.giphy.com/media/PhNJDPuPnsWlxNAYjw/giphy.gif)
 
