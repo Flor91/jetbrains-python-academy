@@ -1,6 +1,6 @@
 # Zookeeper
 
-![Python projects](https://media.giphy.com/media/V0dSvr3Ukvxgk/giphy.gif)
+![Zoo](https://media.giphy.com/media/1gOadI4RGkrFpbMF7r/giphy.gif)
 
 ### About this project
 Help the local zoo look after its denizens. You will create a tool for monitoring animals and their status.
