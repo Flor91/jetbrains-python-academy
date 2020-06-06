@@ -11,7 +11,7 @@ Requirements:
 - Python 3.7
 - To run the tests: https://github.com/hyperskill/hs-test-python
 
-`python coffee_machine.py`
+`python creditcalc.py`
 
 ![Python projects](http://g.recordit.co/GDdyFWljYd.gif)
 
@@ -414,8 +414,3 @@ Overpayment = 246622
 You need 2 years to repay this credit!
 Overpayment = 52000
 ```
-
-python creditcalc.py -h
-python creditcalc.py --type=diff --principal=500000 --periods=8 --interest=7.8
-python creditcalc.py --type=annuity --payment=8722 --periods=120 --interest=5.6
-python creditcalc.py --type=annuity --principal=500000 --payment=23000 --interest=7.8
