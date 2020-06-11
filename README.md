@@ -1,6 +1,5 @@
 ![Python projects](images/README/python.png)
 
-
 # Python Projects
 
 > List of Challenges implemented using Python
@@ -13,9 +12,9 @@ Instructions are in the READMES inside each folder, linked in the Table of Conte
 
 You can find my solutions for each of the problems, and the original source where the challenges came from.
 
-![Python projects](https://media.giphy.com/media/4HgAbIa6ZVLEq05cjv/giphy.gif)
 
-This repo is WIP, I will continue to update it weekly with new challenges progressively more challenging.
+> This repo is WIP, I will continue to update it weekly with new challenges progressively more challenging.
+<img style="align-content: center" alt="WIP" src="https://media.giphy.com/media/4HgAbIa6ZVLEq05cjv/giphy.gif" width="200"/>
 
 ---
 
@@ -26,22 +25,27 @@ This repo is WIP, I will continue to update it weekly with new challenges progre
 ---
 
 ## Table of Contents
-![Python projects](https://media.giphy.com/media/LMia8kOesIyAnS7lvP/giphy.gif)
+<img style="align-content: center" alt="WIP" src="https://media.giphy.com/media/LMia8kOesIyAnS7lvP/giphy.gif" width="200"/>
 
 - [☕ Coffee Machine](Coffee%20Machine/README.md)
 - [🤖 Simple Chatty Bot](Simple%20Chatty%20Bot/README.md)
 - [🐘 Zookeeper](Zookeeper/README.md)
 
-![Python projects](https://media.giphy.com/media/QVUgiVilwyQncFCGI1/giphy.gif)
+<img style="align-content: center" alt="WIP" src="https://media.giphy.com/media/QVUgiVilwyQncFCGI1/giphy.gif" width="200"/>
 
 - [🔡 Hangman](Hangman/README.md)
 - [❌⭕ Tic-Tac-Toe](Tic-Tac-Toe/README.md)
+- [✊🏽✋🏽️✌🏽 Rock-Paper-Scissors](Rock-Paper-Scissors/README.md)
+- [🧮 Numeric-Matrix-Processor](Numeric-Matrix-Processor/README.md)
 
-![Python projects](https://media.giphy.com/media/KDD2ogvPOGzuh1w2Hs/giphy.gif)
+
+<img style="align-content: center" alt="WIP" src="https://media.giphy.com/media/KDD2ogvPOGzuh1w2Hs/giphy.gif" width="200"/>
 
 - [💳 Credit Calculator](Credit%20Calculator/README.md)
 
-![Python projects](https://media.giphy.com/media/PhNJDPuPnsWlxNAYjw/giphy.gif)
+
+<img style="align-content: center" alt="WIP" src="https://media.giphy.com/media/PhNJDPuPnsWlxNAYjw/giphy.gif" width="200"/>
+
 
 
 ---

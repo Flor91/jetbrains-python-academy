@@ -1,0 +1,3 @@
+Flor 1400
+Matias 100
+Pedro 200
