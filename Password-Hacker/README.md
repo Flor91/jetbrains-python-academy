@@ -1,6 +1,6 @@
 # Password Hacker
 
-![password- hacker](https://media.giphy.com/media/YQitE4YNQNahy/giphy.gif)
+![password-hacker](https://media.giphy.com/media/eCqFYAVjjDksg/source.gif)
 
 ### About this project
 

@@ -1,6 +1,6 @@
 # Tic Tac Toe with AI
 
-![matrix](https://media.giphy.com/media/4To6BwK2aa4hoKPHR9/giphy.gif)
+![ai](https://media.giphy.com/media/l1Et6k00qp9fMTP8s/giphy.gif)
 
 ### About this project
 
