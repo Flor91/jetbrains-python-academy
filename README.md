@@ -37,24 +37,25 @@ You can find my solutions for each of the problems, and the original source wher
 - [🔡 Hangman](Hangman/README.md)
 - [❌⭕ Tic-Tac-Toe](Tic-Tac-Toe/README.md)
 - [✊🏽✋🏽️✌🏽 Rock-Paper-Scissors](Rock-Paper-Scissors/README.md)
-- [🧮 Numeric-Matrix-Processor](Numeric-Matrix-Processor/README.md) [WIP]
+- [🧮 Numeric-Matrix-Processor](Numeric-Matrix-Processor/README.md)
+- [🏦 Simple-Banking-System](Numeric-Matrix-Processor/README.md) [WIP]
 
 
 <img style="align-content: center" alt="WIP" src="https://media.giphy.com/media/KDD2ogvPOGzuh1w2Hs/giphy.gif" width="200"/>
 
-- [Smart Calculator](Credit%20Calculator/README.md) [upcoming]
-- [Text Based Browser](Credit%20Calculator/README.md) [upcoming]
-- [Tic-Tac-Toe with IA](Credit%20Calculator/README.md) [upcoming]
-- [To-Do List](Credit%20Calculator/README.md) [upcoming]
+- [🧮 Smart Calculator](Smart-Calculator/README.md) [upcoming]
+- [📖 Text Based Browser](Text-Based-Browser/README.md) [upcoming]
+- [🤖 Tic-Tac-Toe with AI](Tic-Tac-Toe-AI/README.md) [upcoming]
+- [📓 To-Do List](To-Do-List/README.md) [upcoming]
 
 
 <img style="align-content: center" alt="WIP" src="https://media.giphy.com/media/PhNJDPuPnsWlxNAYjw/giphy.gif" width="200"/>
 
 Comming:
-- [Password Hacker](Credit%20Calculator/README.md) [upcoming]
-- [Hypercar Service Center](Credit%20Calculator/README.md) [upcoming]
-- [HyperJob Agency](Credit%20Calculator/README.md) [upcoming]
-- [HyperNews Portal](Credit%20Calculator/README.md) [upcoming]
+- [🔑 Password Hacker](Password-Hacker/README.md) [upcoming]
+- [🚗 Hypercar Service Center](HyperCar-Service-Center/README.md) [upcoming]
+- [🧳 HyperJob Agency](HyperJob-Agency/README.md) [upcoming]
+- [📰 HyperNews Portal](HyperNews-Portal/README.md) [upcoming]
 
 ---
 
