@@ -1,4 +1,4 @@
-![Python projects](images/README/python.png)
+![Python](images/README/banner.png)
 
 # Python Projects
 
@@ -14,6 +14,7 @@ You can find my solutions for each of the problems, and the original source wher
 
 
 > This repo is WIP, I will continue to update it weekly with new challenges progressively more challenging.
+
 <img style="align-content: center" alt="WIP" src="https://media.giphy.com/media/4HgAbIa6ZVLEq05cjv/giphy.gif" width="200"/>
 
 ---
@@ -36,17 +37,24 @@ You can find my solutions for each of the problems, and the original source wher
 - [🔡 Hangman](Hangman/README.md)
 - [❌⭕ Tic-Tac-Toe](Tic-Tac-Toe/README.md)
 - [✊🏽✋🏽️✌🏽 Rock-Paper-Scissors](Rock-Paper-Scissors/README.md)
-- [🧮 Numeric-Matrix-Processor](Numeric-Matrix-Processor/README.md)
+- [🧮 Numeric-Matrix-Processor](Numeric-Matrix-Processor/README.md) [WIP]
 
 
 <img style="align-content: center" alt="WIP" src="https://media.giphy.com/media/KDD2ogvPOGzuh1w2Hs/giphy.gif" width="200"/>
 
-- [💳 Credit Calculator](Credit%20Calculator/README.md)
+- [Smart Calculator](Credit%20Calculator/README.md) [upcoming]
+- [Text Based Browser](Credit%20Calculator/README.md) [upcoming]
+- [Tic-Tac-Toe with IA](Credit%20Calculator/README.md) [upcoming]
+- [To-Do List](Credit%20Calculator/README.md) [upcoming]
 
 
 <img style="align-content: center" alt="WIP" src="https://media.giphy.com/media/PhNJDPuPnsWlxNAYjw/giphy.gif" width="200"/>
 
-
+Comming:
+- [Password Hacker](Credit%20Calculator/README.md) [upcoming]
+- [Hypercar Service Center](Credit%20Calculator/README.md) [upcoming]
+- [HyperJob Agency](Credit%20Calculator/README.md) [upcoming]
+- [HyperNews Portal](Credit%20Calculator/README.md) [upcoming]
 
 ---
 

@@ -1,9 +1,9 @@
-# Zookeeper
+# Numeric Matrix Processor
 
-![Zoo](https://media.giphy.com/media/mQtJ71Rn26YpO/giphy.gif)
+![matrix](https://media.giphy.com/media/LXb73qI8F7bDa/giphy.gif)
 
 ### About this project
-Help the local zoo look after its denizens. You will create a tool for monitoring animals and their status.
+Here’s a project for devoted matrix enthusiasts: learn to perform a variety of operations on matrices including addition, multiplication, finding the determinant, and dealing with inverse matrices. If you are working on your tech or math major, this project is a good chance for you to learn matrices in action and not just in your notebook.
 
 ### Run
 
@@ -11,197 +11,78 @@ Requirements:
 - Python 3.7
 - To run the tests: https://github.com/hyperskill/hs-test-python
 
-`python zookeeper.py`
-
-![Python projects](http://g.recordit.co/kXsziz4vBU.gif)
+`python processor.py`
 
 
 # Code it yourself: 
+## 1. Addition
+<p>Matrices have a wide range of applications in programming: they're used for digital image processing, graph representation and algorithms on a graph, graphic effects, applied math, statistics, and much more.</p>
 
-## 1. Rush into print
-### Description
-There are many animals in the zoo: all of them need care, and some of them are endangered and require preservation efforts. Animals must be fed, cleaned, surrounded by their kin, and kept happy. That is a difficult task for such a big open-range zoo, so one of your employers suggested a better way to accomplish that. She wants to be able to watch any animal on the screen with the help of a special program.
+<p>Since matrices are tables of numbers, they are usually presented in code as 2D-arrays. In this project, you will learn how to read and output matrices, do operations on them, and compute the determinant of a square matrix. At first, you will work with matrices with integer elements, and later the elements will be floating-point numbers.</p>
 
-In this project, you will create a program that helps the zookeeper check on the animals and see that they're well. Your product will be able to understand commands from the zoo staff and show the animals on the monitor.
+<h2>Description</h2>
 
-### Objectives
-To begin with, you should develop a simple printer. Your program must show the text from the output example.
+<p>Let’s start with matrix addition.</p>
 
-### Example
-Output:
+<h2>Objectives</h2>
 
-```
-I do love animals!
-Start looking after animals...
-Deer looks fine.
-Bat looks happy.
-Lion looks healthy.
-```
+<p>In this stage, you should write a program that:</p>
 
-## 2: Show me an animal!
+<ol>
+	<li>Reads matrix ( A ) from the input.</li>
+	<li>Reads matrix ( B ) from the input.</li>
+	<li>Outputs their sum if it is possible to add them. Otherwise, it should output the <code class="java">ERROR</code> message.</li>
+</ol>
 
-### Description
-The important thing about working with animals is watching them. We need to see the animals on the screen to know how they are doing, right? At this time, we are ready to print something awesome: animal images! 
+<p>Output the result in the same way but don't print the dimensions of the matrix.</p>
 
-### Objectives
-In the second stage, you need to develop an animal printer. Your program should show a certain animal: you will find it in the code field.
+<h2>Examples</h2>
 
-Please, don't remove the r character at the start of the code template. It's a part of the string and it's important. So, the string should start with r""" sequence.
+<p><strong>Example 1:</strong></p>
 
-### Example
+<p>Input:</p>
 
-Your output should contain the following ASCII image:
+<pre><code class="language-no-highlight">4 5
+1 2 3 4 5
+3 2 3 2 1
+8 0 9 9 1
+1 3 4 5 6
+4 5
+1 1 4 4 5
+4 4 5 7 8
+1 2 3 9 8
+1 0 0 0 1</code></pre>
 
-```
-Switching on camera from the habitat with camels...
- ___.-''''-.
-/___  @    |
-',,,,.     |         _.'''''''._
-     '     |        /           \
-     |     \    _.-'             \
-     |      '.-'                  '-.
-     |                               ',
-     |                                '',
-      ',,-,                           ':;
-           ',,| ;,,                 ,' ;;
-              ! ; !'',,,',',,,,'!  ;   ;:
-             : ;  ! !       ! ! ;  ;   :;
-             ; ;   ! !      ! !  ; ;   ;,
-            ; ;    ! !     ! !   ; ;
-            ; ;    ! !    ! !     ; ;
-           ;,,      !,!   !,!     ;,;
-           /_I      L_I   L_I     /_I
-Yey, our little camel is sunbathing!
-```
+<p>Output:</p>
 
-## 3: What's inside?
+<pre><code class="language-no-highlight">2 3 7 8 10
+7 6 8 9 9
+9 2 12 18 9
+2 3 4 5 7</code></pre>
 
-### Description
+<p><strong>Example 2:</strong></p>
 
-The third stage brings new abilities for your software: it will be able to recognize the number of a specific habitat from the input and show the animals living there.
+<p>Input:</p>
 
-Add all variables with images from the template to a variable with the type list. The order of variables matters: they must be in the order they're defined in the code. The list must contain all of them with no duplicates.
+<pre><code class="language-no-highlight">2 3
+1 4 5
+4 5 5
+4 5
+0 1 0 4 5
+1 7 8 9 4
+1 2 3 5 6
+1 3 4 3 8</code></pre>
 
-### Objectives
+<p>Output:</p>
 
-In this stage, your program should:
+<pre><code class="language-no-highlight">ERROR</code></pre>
 
-1. Ask for a number of the habitat using the following phrase: Which habitat # do you need?.
-2. Use the input number as an index of your habitat to print its content.
-3. End with the following phrase:
-`The end of the program. To check another habitat restart the watcher please.`
+## 2. Multiplication by number
 
-### Examples
+## 3. Matrix by matrix multiplication
 
-The greater-than symbol followed by a space (> ) represents the user input. Notice that it's not part of the input.
+## 4. Transpose
 
-Example 1
+## 5. Determined
 
-```
-Which habitat # do you need? > 5
-
-Switching on camera from the habitat with rabbits...
-         ,
-        /|      __
-       / |   ,-~ /
-      Y :|  //  /
-      | jj /( .^
-      >-"~"-v"
-     /       Y
-    jo  o    |
-   ( ~T~     j
-    >._-' _./
-   /   "~"  |
-  Y     _,  |
- /| ;-"~ _  l
-/ l/ ,-"~    \
-\//\/      .- \
- Y        /    Y
- l       I     !
- ]\      _\    /"\
-(" ~----( ~   Y.  )
-It seems there will be more rabbits soon!
----
-The end of the program. To check another habitat restart the watcher please.
-```
-
-Example 2
-
-```
-Which habitat # do you need? > 4
-
-Switching on camera from the habitat with bats...
-_________________               _________________
- ~-.              \  |\___/|  /              .-~
-     ~-.           \ / o o \ /           .-~
-        >           \\  W  //           <
-       /             /~---~\             \
-      /_            |       |            _\
-         ~-.        |       |        .-~
-            ;        \     /        i
-           /___      /\   /\      ___\
-                ~-. /  \_/  \ .-~
-                   V         V
-It looks like this bat is fine.
----
-The end of the program. To check another habitat restart the watcher please.
-```
-
-## 4: Sustainable care <3
-
-### Description
-
-It's time to make your project more convenient and understandable. In this final stage, your software will be ready for use by the zoo staff. Your program should understand the habitat numbers, show the animals, and be able to work infinitely.
-
-### Objectives
-
-These are your tasks at this point:
-
-1. Your program should repeat the behavior from the previous stage, now in a loop.
-2. Do not forget to add an exit opportunity for the program: inputting the word exit must terminate the program.
-3. At the end of execution, it must print `See you!`.
-
-### Example
-
-The greater-than symbol followed by a space (> ) represents the user input. Notice that it's not part of the input.
-
-The complete program should work this way:
-
-```shell script
-Which habitat # do you need? > 3
-
-Switching on camera from the habitat with a lovely goose...
-	
-                                    _
-                                ,-"" "".
-                              ,'  ____  `.
-                            ,'  ,'    `.  `._
-   (`.         _..--.._   ,'  ,'        \    \
-  (`-.\    .-""        ""'   /          (  d _b
- (`._  `-"" ,._             (            `-(   \
- <_  `     (  <`<            \              `-._\
-  <`-       (__< <           :
-   (__        (_<_<          ;
-    `------------------------------------------
-This bird stares intently at you... (Maybe it's time to change the channel?)
-> Which habitat # do you need? > 1
-
-Switching on camera from the habitat with lions...
-                                               ,w.
-                                             ,YWMMw  ,M  ,
-                        _.---.._   __..---._.'MMMMMw,wMWmW,
-                   _.-""        '''           YP"WMMMMMMMMMb,
-                .-' __.'                   .'     MMMMW^WMMMM;
-    _,        .'.-'"; `,       /`     .--""      :MMM[==MWMW^;
- ,mM^"     ,-'.'   /   ;      ;      /   ,       MMMMb_wMW"  @\
-,MM:.    .'.-'   .'     ;     `\    ;     `,     MMMMMMMW `"=./`-,
-WMMm__,-'.'     /      _.\      F'''-+,,   ;_,_.dMMMMMMMM[,_ / `=_}
-"^MP__.-'    ,-' _.--""   `-,   ;       \  ; ;MMMMMMMMMMW^``; __|
-           /   .'            ; ;         )  )`{  \ `"^W^`,   \  :
-          /  .'             /  (       .'  /     Ww._     `.  `"
-         /  Y,              `,  `-,=,_{   ;      MMMP`""-,  `-._.-,
-        (--, )                `,_ / `) \/"")      ^"      `-, -;"\:
-The lion is croaking!
-Which habitat # do you need? > exit
-See you!
-```
+## 6. Inverse matrix
