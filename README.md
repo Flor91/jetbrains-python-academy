@@ -38,15 +38,15 @@ You can find my solutions for each of the problems, and the original source wher
 - [❌⭕ Tic-Tac-Toe](Tic-Tac-Toe/README.md)
 - [✊🏽✋🏽️✌🏽 Rock-Paper-Scissors](Rock-Paper-Scissors/README.md)
 - [🧮 Numeric-Matrix-Processor](Numeric-Matrix-Processor/README.md)
-- [🏦 Simple-Banking-System](Numeric-Matrix-Processor/README.md) [WIP]
+- [🏦 Simple-Banking-System](Numeric-Matrix-Processor/README.md) 
 
 
 <img style="align-content: center" alt="WIP" src="https://media.giphy.com/media/KDD2ogvPOGzuh1w2Hs/giphy.gif" width="200"/>
 
 - [🧮 Smart Calculator](Smart-Calculator/README.md) [upcoming]
-- [📖 Text Based Browser](Text-Based-Browser/README.md) [upcoming]
-- [🤖 Tic-Tac-Toe with AI](Tic-Tac-Toe-AI/README.md) [upcoming]
-- [📓 To-Do List](To-Do-List/README.md) [upcoming]
+- [📖 Text Based Browser](Text-Based-Browser/README.md)
+- [🤖 Tic-Tac-Toe with AI](Tic-Tac-Toe-AI/README.md)
+- [📓 To-Do List](To-Do-List/README.md) 
 
 
 <img style="align-content: center" alt="WIP" src="https://media.giphy.com/media/PhNJDPuPnsWlxNAYjw/giphy.gif" width="200"/>
